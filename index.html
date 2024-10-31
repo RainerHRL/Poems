@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国诗词大会</title>
+    <style>
+        /* 设置背景图样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 主容器 */
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 标题样式 */
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* 按钮容器样式 */
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* 按钮之间的间距 */
+        }
+
+        /* 按钮样式 */
+        .button {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+        .button img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* 文字覆盖样式 */
+        .button span {
+            position: absolute;
+            color: black;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <header>
+            <h1>诗词大会</h1>
+        </header>
+
+        <!-- 按钮区域 -->
+        <main class="buttons">
+            <!-- 学诗歌按钮 -->
+            <a href="#" class="button">
+                <img src="img/scroll.png" alt="学习诗歌">
+                <span>学习诗歌</span>
+            </a>
+
+            <!-- 测自己按钮 -->
+            <a href="#" class="button">
+                <img src="img/scroll.png" alt="章节测试">
+                <span>章节测试</span>
+            </a>
+        </main>
+    </div>
+</body>
+</html>
